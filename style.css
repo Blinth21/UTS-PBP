@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    color: #3b352d;
+    background: #f7f2ea;
+    font-family: "Jost", "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+/* ============ NAVBAR ============ */
+.invitation-nav {
+    background: #f7f2ea;
+}
+
+.navbar-brand {
+    color: #3b352d;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 24px;
+}
+
+.navbar-brand span {
+    color: #b07b4f;
+    font-style: italic;
+}
+
+.navbar-brand:hover {
+    color: #3b352d;
+}
+
+.navbar-nav .nav-link {
+    color: #6f665a;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b07b4f;
+}
+
+/* ============ COVER ============ */
+.cover {
+    padding: 8px 0 40px;
+}
+
+.cover-img {
+    display: block;
+    height: 560px;
+    object-fit: cover;
+    object-position: center 25%;
+}
+
+.cover-overlay {
+    padding: 24px;
+    background: rgba(30, 25, 20, 0.66);
+}
+
+.cover-eyebrow {
+    margin-bottom: 10px;
+    color: #f3e3d0;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.cover-title {
+    margin-bottom: 14px;
+    color: #fffaf3;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.cover-title span {
+    color: #eac9a4;
+    font-style: italic;
+}
+
+.cover-date {
+    margin-bottom: 28px;
+    color: #f3ede4;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+}
+
+/* ============ TOMBOL ============ */
+.btn-primary {
+    padding: 12px 28px;
+    border-color: #b07b4f;
+    background: #b07b4f;
+    font-family: "Jost", "Segoe UI", Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    border-color: #9a6840;
+    background: #9a6840;
+}
+
+/* ============ SECTION ============ */
+.section {
+    padding: 80px 0;
+}
+
+.section-head {
+    max-width: 560px;
+}
+
+.eyebrow {
+    margin-bottom: 10px;
+    color: #b07b4f;
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+}
+
+.section-head h2 {
+    margin-bottom: 14px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.section-text {
+    color: #7a7062;
+    font-size: 15px;
+}
+
+/* ============ KARTU ============ */
+.card {
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 18px 40px rgba(59, 53, 45, 0.08);
+}
+
+.photo-card {
+    overflow: hidden;
+}
+
+.photo-card img {
+    height: 420px;
+    object-fit: cover;
+}
+
+.photo-caption {
+    color: #8a8071;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.name-role {
+    margin-bottom: 6px;
+    color: #b07b4f;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+.name-title {
+    margin-bottom: 4px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.name-parent {
+    color: #7a7062;
+    font-size: 14px;
+}
+
+.name-amp {
+    margin: 22px 0;
+    color: #cbb28f;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 34px;
+    font-style: italic;
+}
+
+/* ============ ACARA ============ */
+.event-card .card-body {
+    padding: 44px 32px;
+}
+
+.event-time {
+    margin-bottom: 14px;
+    color: #b07b4f;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.event-title {
+    margin-bottom: 12px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.event-card p:not(.event-time) {
+    color: #7a7062;
+    font-size: 14px;
+}
+
+/* ============ FOTO BANNER ============ */
+.photo-banner img {
+    display: block;
+    height: 340px;
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+.photo-banner-label {
+    padding: 11px 24px;
+    border-radius: 999px;
+    background: rgba(255, 250, 243, 0.92);
+    color: #6b5a45;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* ============ RSVP ============ */
+.form-label {
+    margin-bottom: 6px;
+    color: #6f665a;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.form-control,
+.form-select {
+    padding: 12px 14px;
+    border: 1px solid #e6ddd0;
+    border-radius: 10px;
+    background-color: #faf7f1;
+    font-family: "Jost", "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #3b352d;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #b07b4f;
+    background-color: #faf7f1;
+    box-shadow: 0 0 0 0.2rem rgba(176, 123, 79, 0.2);
+}
+
+/* ============ FOOTER ============ */
+footer {
+    background: #3b352d;
+    color: #f3ede4;
+}
+
+.footer-name {
+    margin-bottom: 6px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 30px;
+}
+
+.footer-name span {
+    color: #d8b98e;
+    font-style: italic;
+}
+
+.footer-note {
+    margin-bottom: 14px;
+    color: #b7ad9f;
+    font-size: 13px;
+}
+
+footer a {
+    color: #f3ede4;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color: #d8b98e;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover-img {
+        height: 480px;
+    }
+
+    .cover-title {
+        font-size: 56px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-head h2 {
+        font-size: 36px;
+    }
+
+    .photo-card img {
+        height: 320px;
+    }
+
+    .event-card .card-body {
+        padding: 32px 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    .cover-img {
+        height: 520px;
+    }
+
+    .cover-title {
+        font-size: 44px;
+    }
+
+    .photo-banner img {
+        height: 240px;
+    }
+
+    .photo-banner-label {
+        font-size: 11px;
+        letter-spacing: 0.12em;
+    }
+}
